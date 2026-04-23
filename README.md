@@ -19,7 +19,7 @@ The main idea is to retrieve an initial evidence set, generate a candidate answe
 ## Method Overview
 
 ### 1. Data preparation
-The notebook loads the HotpotQA distractor development set from:
+The dataset is downloaded from HuggingFace. Then, the notebook loads the HotpotQA distractor development set from:
 
 ```text
 data/hotpot_dev_distractor_v1.json
